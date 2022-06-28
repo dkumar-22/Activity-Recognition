@@ -2,6 +2,7 @@
 A LSTM + CNN or LRCN model which recognises the action performed in a video. It is trained on the UFC-50 dataset.
 
 Link To the UFC-50 Dataset: https://www.crcv.ucf.edu/data/UCF50.php
+<br/>
 Google Colaboratory Link: https://colab.research.google.com/drive/1mftAh_YV_GhO0L8iA0M_G83agbbcUsKq?usp=sharing
 
 ## **<font style="color:rgb(134,19,348)">Implementing the LRCN Approach</font>**
