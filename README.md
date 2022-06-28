@@ -1,6 +1,9 @@
 # Human-Activity-Recognition
 A LSTM + CNN or LRCN model which recognises the action performed in a video. It is trained on the UFC-50 dataset.
 
+Link To the UFC-50 Dataset: https://www.crcv.ucf.edu/data/UCF50.php
+Google Colaboratory Link: https://colab.research.google.com/drive/1mftAh_YV_GhO0L8iA0M_G83agbbcUsKq?usp=sharing
+
 ## **<font style="color:rgb(134,19,348)">Implementing the LRCN Approach</font>**
 
 An approach known as Long-term Recurrent Convolutional Network (LRCN) was implemented, which combines CNN and LSTM layers in a single model. The Convolutional layers are used for spatial feature extraction from the frames, and the extracted spatial features are fed to LSTM layer(s) at each time-steps for temporal sequence modeling. This way the network learns spatiotemporal features directly in an end-to-end training, resulting in a robust model.
